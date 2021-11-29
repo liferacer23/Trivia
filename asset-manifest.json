@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/liferacer.github.io/Trivia/static/css/main.9590fd5e.chunk.css",
+    "main.js": "/liferacer.github.io/Trivia/static/js/main.7ee9bb73.chunk.js",
+    "main.js.map": "/liferacer.github.io/Trivia/static/js/main.7ee9bb73.chunk.js.map",
+    "runtime-main.js": "/liferacer.github.io/Trivia/static/js/runtime-main.318a7639.js",
+    "runtime-main.js.map": "/liferacer.github.io/Trivia/static/js/runtime-main.318a7639.js.map",
+    "static/js/2.eb84fa47.chunk.js": "/liferacer.github.io/Trivia/static/js/2.eb84fa47.chunk.js",
+    "static/js/2.eb84fa47.chunk.js.map": "/liferacer.github.io/Trivia/static/js/2.eb84fa47.chunk.js.map",
+    "static/js/3.0c11635b.chunk.js": "/liferacer.github.io/Trivia/static/js/3.0c11635b.chunk.js",
+    "static/js/3.0c11635b.chunk.js.map": "/liferacer.github.io/Trivia/static/js/3.0c11635b.chunk.js.map",
+    "index.html": "/liferacer.github.io/Trivia/index.html",
+    "static/css/main.9590fd5e.chunk.css.map": "/liferacer.github.io/Trivia/static/css/main.9590fd5e.chunk.css.map",
+    "static/js/2.eb84fa47.chunk.js.LICENSE.txt": "/liferacer.github.io/Trivia/static/js/2.eb84fa47.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.318a7639.js",
+    "static/js/2.eb84fa47.chunk.js",
+    "static/css/main.9590fd5e.chunk.css",
+    "static/js/main.7ee9bb73.chunk.js"
+  ]
+}
