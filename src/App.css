@@ -1,0 +1,101 @@
+.App
+{
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    background-repeat: no-repeat;
+    min-height:100vh;
+    
+    
+}
+.header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(66, 63, 59);
+    box-shadow: 0 0 5px 4px rgb(107, 151, 177);
+    padding:0 16px;
+}
+.form-group
+{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.form-group > label
+{
+    color:aquamarine;
+    flex-direction: column;
+    margin: 10px;
+}
+.btn
+{
+    background-color: rgb(111, 131, 124);
+    color: beige;
+    padding: 10px;
+    border:none;
+    cursor:pointer;
+}
+.btn:hover
+{
+    background-color: rgb(142, 163, 156);
+}
+.card-grid
+{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap:20px;
+    margin:16px 32px;
+}
+.card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0 0 5px 4px rgb(107, 151, 177);
+    background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
+
+    
+    transform:perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y,0));
+    transform-style:preserve-3d;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.card:hover
+{
+    --translate-y:-3px;
+    box-shadow: 0 0 5px 4px rgb(168, 72, 72);
+
+}
+.card .front
+{
+    left:0;
+}
+.card.flip
+{
+    --rotate-y:180deg;
+}
+.card .front,
+.card .back
+{
+    position:absolute;
+    padding: 10px;
+    backface-visibility: hidden;
+
+}
+.card .back
+{
+    transform: rotateY(180deg);
+}
+.flashcard-options
+{
+    margin-top: 10px;
+}
+.flashcard-option
+{
+    margin-top: 5px;
+    font-size:13px;
+}
