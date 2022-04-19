@@ -6,6 +6,7 @@ import './App.css';
 function App() {
 
   const categoryElement = useRef();
+  const categoryElement2 = useRef();
   const amountRef = useRef();
   const [flashcards,setflashcards] = useState([]);
   const [categories,setCategories] = useState([]);
